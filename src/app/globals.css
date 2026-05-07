@@ -1,17 +1,20 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #fdfbf4;
+  --surface: #ffffff;
+  --surface-strong: #06163d;
+  --foreground: #111a2e;
+  --primary: #0044ff;
+  --primary-hover: #0034c7;
+  --accent: #00a6ff;
+  --accent-soft: #dce8ff;
+  --line: #e7e1d4;
+  --text-muted: #667085;
+  --shadow-lg: 0 22px 70px rgba(0, 68, 255, 0.16);
 }
 
 html {
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 html,
@@ -42,8 +45,6 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+button {
+  font-family: inherit;
 }
